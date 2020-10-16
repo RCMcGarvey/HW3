@@ -1,27 +1,25 @@
 import Customers.Customer;
+import Observers.Recorder;
+import Rolls.Roll;
 import Rolls.RollFactory;
 import java.util.*;
 
 public class Store{
-    //All info on dictionaries was gathered from https://www.geeksforgeeks.org/java-util-dictionary-class-java/
-    Store() {
-        this.inventory.put("Spring Rolls", 30);
-        this.inventory.put("Egg Rolls", 30);
-        this.inventory.put("Pastry Rolls", 30);
-        this.inventory.put("Sausage Rolls", 30);
-        this.inventory.put("Jelly Rolls", 30);
+    private final int inventoryLevel;
 
+    Store (int inventoryLevel) {
+        this.inventoryLevel = inventoryLevel;
     }
 
     private int day = 0;
     private Random rand = new Random();
     //recycled from HW2
-    private List<Announcer> announcers = new ArrayList<>();
+    private List<Recorder> recorders = new ArrayList<>();
 
 
     //private CustomerFactory customerFactory = new CustomerFactory()
 
-    Dictionary<String, Integer> inventory = new Hashtable<>();
+    HashMap<Roll.RollType, Integer> inventory = new HashMap<>();
 
 
 
@@ -39,30 +37,28 @@ public class Store{
 
     }
 
-    public void addObserver(Announcer announcer) {
-        this.announcers.add(announcer);
-    }
+//    public void addObserver(Recorder recorder) {
+//        this.recorders.add(recorder);
+//    }
+//
+//    public void removeObserver(Recorder recorder) {
+//        this.recorders.remove(recorder);
+//    }
+//
+////    private void changeState(String event){
+////        for(Recorder recorder : this.recorders){
+////            recorder.sale(event);
+////        }
+////    }
 
-    public void removeObserver(Announcer announcer) {
-        this.announcers.remove(announcer);
-    }
 
-    private void changeState(String event){
-        for(Announcer announcer : this.announcers){
-            announcer.message(event);
+    public void stockInventory() {
+        for (Roll.RollType rollType : Roll.RollType.values()) {
+            inventory.put(rollType, inventoryLevel);
         }
     }
 
-
-    private void refreshInventory(){
-        for(Enumeration i = inventory.keys(); i.hasMoreElements();) {
-            if(inventory.get(i) == 0){
-                inventory.put(i.toString(), 30);
-            }
-        }
-    }
-
-    private List<Customer> getCustomers(){
+    public List<Customer> getCustomers(){
 
         int casuals = rand.nextInt(12)+1;
         int business = rand.nextInt(3)+1;
@@ -105,11 +101,28 @@ public class Store{
                 }
             }
         }
-        return
+        return null;
     }
 
 
+    public HashMap<Roll.RollType, Integer> getInventory() {
+        return inventory;
+    }
 
+    public boolean emptyInventory() {
+        int stock = 0;
+        for (int s : inventory.values()) {
+            stock += s;
+        }
+        return stock <= 0;
+    }
 
-
+    public void printInventory() {
+        Set set = inventory.entrySet();
+        Iterator iterator = set.iterator();
+        while (iterator.hasNext()) {
+            Map.Entry entry = (Map.Entry) iterator.next();
+            System.out.println("    " + entry.getKey() + ": " + entry.getValue());
+        }
+    }
 }

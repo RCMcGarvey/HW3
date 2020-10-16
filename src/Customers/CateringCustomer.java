@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 public class CateringCustomer extends Customer {
     public CateringCustomer() {
-        customerType = CustomerType.CATERING;
+        setCustomerType(CustomerType.CATERING);
         Integer[] arr = new Integer[Roll.RollType.values().length];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = i;
@@ -28,6 +28,7 @@ public class CateringCustomer extends Customer {
             // numOutOfStock equals 0, take full order
             inventory = takeFullOrder(inventory);
         }
+        purchase();
         return inventory;
     }
 }

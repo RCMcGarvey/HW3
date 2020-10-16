@@ -1,0 +1,3646 @@
+DAY 1
+Store inventory at the start of the day:
+    PASTRY: 30
+    SPRING: 30
+    JELLY: 30
+    EGG: 30
+    SAUSAGE: 30
+Order by CATERING customer for $174 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $2 with extras:
+    EGG: 1
+Order by BUSINESS customer for $116 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $208 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Store inventory at the end of the day:
+    PASTRY: 23
+    SPRING: 23
+    JELLY: 18
+    EGG: 22
+    SAUSAGE: 23
+Payments by customer type:
+    CATERING: $382
+    CASUAL: $2
+    BUSINESS: $116
+Outages by customer type:
+DAY 2
+Store inventory at the start of the day:
+    PASTRY: 23
+    SPRING: 23
+    JELLY: 18
+    EGG: 22
+    SAUSAGE: 23
+Order by CASUAL customer for $14 with extras:
+    EGG: 2
+Order by CASUAL customer for $25 with extras:
+    JELLY: 2
+Order by CATERING customer for $109 with extras:
+    SPRING: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by BUSINESS customer for $111 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $130 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $32 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $173 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Store inventory at the end of the day:
+    PASTRY: 19
+    SPRING: 9
+    JELLY: 7
+    EGG: 11
+    SAUSAGE: 7
+Payments by customer type:
+    CATERING: $282
+    CASUAL: $71
+    BUSINESS: $241
+Outages by customer type:
+DAY 3
+Store inventory at the start of the day:
+    PASTRY: 19
+    SPRING: 9
+    JELLY: 7
+    EGG: 11
+    SAUSAGE: 7
+Order by CASUAL customer for $6 with extras:
+    SPRING: 2
+Order by CASUAL customer for $3 with extras:
+    SPRING: 1
+Order by CASUAL customer for $30 with extras:
+    JELLY: 2
+Order by CASUAL customer for $5 with extras:
+    SPRING: 1
+Order by CATERING customer for $172 with extras:
+    PASTRY: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CATERING customer for $118 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Order by CASUAL customer for $15 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $6 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $24 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Store inventory at the end of the day:
+    PASTRY: 4
+    SPRING: 0
+    JELLY: 4
+    EGG: 1
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $290
+    CASUAL: $133
+Outages by customer type:
+    BUSINESS: 2
+DAY 4
+Store inventory at the start of the day:
+    PASTRY: 4
+    SPRING: 0
+    JELLY: 4
+    EGG: 1
+    SAUSAGE: 0
+Order by CASUAL customer for $4 with extras:
+    EGG: 1
+Order by CATERING customer for $99 with extras:
+    PASTRY: 4
+    JELLY: 4
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $99
+    CASUAL: $4
+Outages by customer type:
+    CATERING: 1
+    CASUAL: 7
+    BUSINESS: 3
+DAY 5
+Store inventory at the start of the day:
+    PASTRY: 30
+    SPRING: 30
+    JELLY: 30
+    EGG: 30
+    SAUSAGE: 30
+Order by CASUAL customer for $33 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $10 with extras:
+    EGG: 1
+Order by BUSINESS customer for $128 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $190 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $12 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 1
+Order by BUSINESS customer for $122 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 17
+    SPRING: 26
+    JELLY: 21
+    EGG: 20
+    SAUSAGE: 25
+Payments by customer type:
+    CATERING: $190
+    CASUAL: $71
+    BUSINESS: $250
+Outages by customer type:
+DAY 6
+Store inventory at the start of the day:
+    PASTRY: 17
+    SPRING: 26
+    JELLY: 21
+    EGG: 20
+    SAUSAGE: 25
+Order by CATERING customer for $184 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $5 with extras:
+    SPRING: 1
+Order by CASUAL customer for $18 with extras:
+    EGG: 2
+Order by BUSINESS customer for $97 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $87 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $14 with extras:
+    EGG: 2
+Order by CASUAL customer for $8 with extras:
+    EGG: 2
+Order by CASUAL customer for $5 with extras:
+    SPRING: 2
+Order by CASUAL customer for $12 with extras:
+    EGG: 2
+Store inventory at the end of the day:
+    PASTRY: 8
+    SPRING: 19
+    JELLY: 12
+    EGG: 3
+    SAUSAGE: 19
+Payments by customer type:
+    CATERING: $184
+    CASUAL: $86
+    BUSINESS: $184
+Outages by customer type:
+DAY 7
+Store inventory at the start of the day:
+    PASTRY: 8
+    SPRING: 19
+    JELLY: 12
+    EGG: 3
+    SAUSAGE: 19
+Order by CASUAL customer for $36 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $15 with extras:
+    JELLY: 1
+Order by CASUAL customer for $24 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $18 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $30 with extras:
+    PASTRY: 2
+Order by BUSINESS customer for $132 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $52 with extras:
+    SPRING: 15
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 2
+    JELLY: 9
+    EGG: 1
+    SAUSAGE: 15
+Payments by customer type:
+    CATERING: $52
+    CASUAL: $123
+    BUSINESS: $132
+Outages by customer type:
+    BUSINESS: 1
+DAY 8
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 2
+    JELLY: 9
+    EGG: 1
+    SAUSAGE: 15
+Order by CASUAL customer for $30 with extras:
+    JELLY: 2
+Order by CASUAL customer for $20 with extras:
+    SAUSAGE: 1
+Order by CATERING customer for $218 with extras:
+    SPRING: 2
+    JELLY: 7
+    EGG: 1
+    SAUSAGE: 5
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 1
+Order by CASUAL customer for $12 with extras:
+    SAUSAGE: 1
+Order by CASUAL customer for $28 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $12 with extras:
+    SAUSAGE: 1
+Order by CATERING customer for $72 with extras:
+    SAUSAGE: 4
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $290
+    CASUAL: $118
+Outages by customer type:
+    CASUAL: 1
+    BUSINESS: 3
+DAY 9
+Store inventory at the start of the day:
+    PASTRY: 30
+    SPRING: 30
+    JELLY: 30
+    EGG: 30
+    SAUSAGE: 30
+Order by CASUAL customer for $2 with extras:
+    SPRING: 1
+Order by BUSINESS customer for $101 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $139 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CATERING customer for $108 with extras:
+    SPRING: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by BUSINESS customer for $108 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $35 with extras:
+    JELLY: 2
+Order by BUSINESS customer for $107 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 19
+    SPRING: 13
+    JELLY: 22
+    EGG: 19
+    SAUSAGE: 14
+Payments by customer type:
+    CATERING: $247
+    CASUAL: $37
+    BUSINESS: $316
+Outages by customer type:
+DAY 10
+Store inventory at the start of the day:
+    PASTRY: 19
+    SPRING: 13
+    JELLY: 22
+    EGG: 19
+    SAUSAGE: 14
+Order by CASUAL customer for $32 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $173 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by BUSINESS customer for $123 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $120 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $174 with extras:
+    PASTRY: 15
+Order by CASUAL customer for $4 with extras:
+    EGG: 1
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 4
+    JELLY: 13
+    EGG: 14
+    SAUSAGE: 3
+Payments by customer type:
+    CATERING: $347
+    CASUAL: $36
+    BUSINESS: $243
+Outages by customer type:
+DAY 11
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 4
+    JELLY: 13
+    EGG: 14
+    SAUSAGE: 3
+Order by CASUAL customer for $12 with extras:
+    SAUSAGE: 1
+Order by CATERING customer for $201 with extras:
+    SPRING: 4
+    JELLY: 11
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 2
+    EGG: 14
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $201
+    CASUAL: $36
+Outages by customer type:
+    BUSINESS: 3
+DAY 12
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 2
+    EGG: 14
+    SAUSAGE: 0
+Order by CATERING customer for $118 with extras:
+    JELLY: 2
+    EGG: 13
+Order by CASUAL customer for $6 with extras:
+    EGG: 1
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $118
+    CASUAL: $6
+Outages by customer type:
+    CATERING: 1
+    CASUAL: 4
+    BUSINESS: 2
+DAY 13
+Store inventory at the start of the day:
+    PASTRY: 30
+    SPRING: 30
+    JELLY: 30
+    EGG: 30
+    SAUSAGE: 30
+Order by CATERING customer for $169 with extras:
+    PASTRY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by CASUAL customer for $24 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $36 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 1
+Order by CATERING customer for $153 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by BUSINESS customer for $108 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $164 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $27 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by CASUAL customer for $8 with extras:
+    SAUSAGE: 1
+Store inventory at the end of the day:
+    PASTRY: 19
+    SPRING: 18
+    JELLY: 16
+    EGG: 18
+    SAUSAGE: 14
+Payments by customer type:
+    CATERING: $486
+    CASUAL: $151
+    BUSINESS: $108
+Outages by customer type:
+DAY 14
+Store inventory at the start of the day:
+    PASTRY: 19
+    SPRING: 18
+    JELLY: 16
+    EGG: 18
+    SAUSAGE: 14
+Order by CASUAL customer for $2 with extras:
+    SPRING: 1
+Order by CASUAL customer for $12 with extras:
+    PASTRY: 2
+Order by BUSINESS customer for $76 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $129 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $6 with extras:
+    EGG: 1
+Order by CASUAL customer for $3 with extras:
+    SPRING: 1
+Order by CATERING customer for $176 with extras:
+    PASTRY: 5
+    SPRING: 5
+    JELLY: 5
+Order by CATERING customer for $184 with extras:
+    PASTRY: 5
+    JELLY: 5
+    SAUSAGE: 5
+Store inventory at the end of the day:
+    PASTRY: 3
+    SPRING: 7
+    JELLY: 2
+    EGG: 13
+    SAUSAGE: 5
+Payments by customer type:
+    CATERING: $360
+    CASUAL: $23
+    BUSINESS: $205
+Outages by customer type:
+DAY 15
+Store inventory at the start of the day:
+    PASTRY: 3
+    SPRING: 7
+    JELLY: 2
+    EGG: 13
+    SAUSAGE: 5
+Order by CASUAL customer for $5 with extras:
+    SPRING: 2
+Order by BUSINESS customer for $114 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $2 with extras:
+    EGG: 1
+Order by CATERING customer for $116 with extras:
+    PASTRY: 1
+    SPRING: 3
+    EGG: 10
+    SAUSAGE: 1
+Order by CASUAL customer for $20 with extras:
+    SAUSAGE: 2
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $116
+    CASUAL: $27
+    BUSINESS: $114
+Outages by customer type:
+    CASUAL: 3
+    BUSINESS: 1
+DAY 16
+Store inventory at the start of the day:
+    PASTRY: 30
+    SPRING: 30
+    JELLY: 30
+    EGG: 30
+    SAUSAGE: 30
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by CASUAL customer for $12 with extras:
+    EGG: 1
+Order by CATERING customer for $141 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CATERING customer for $182 with extras:
+    JELLY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CASUAL customer for $4 with extras:
+    EGG: 1
+Order by CASUAL customer for $8 with extras:
+    SPRING: 2
+Order by BUSINESS customer for $121 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 28
+    SPRING: 21
+    JELLY: 17
+    EGG: 16
+    SAUSAGE: 23
+Payments by customer type:
+    CATERING: $323
+    CASUAL: $44
+    BUSINESS: $121
+Outages by customer type:
+DAY 17
+Store inventory at the start of the day:
+    PASTRY: 28
+    SPRING: 21
+    JELLY: 17
+    EGG: 16
+    SAUSAGE: 23
+Order by CASUAL customer for $8 with extras:
+    SPRING: 2
+Order by CATERING customer for $179 with extras:
+    PASTRY: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by BUSINESS customer for $127 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $103 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $2 with extras:
+    SPRING: 1
+Order by CATERING customer for $159 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CATERING customer for $139 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $40 with extras:
+    JELLY: 2
+Order by CASUAL customer for $27 with extras:
+    PASTRY: 2
+Store inventory at the end of the day:
+    PASTRY: 12
+    SPRING: 4
+    JELLY: 1
+    EGG: 7
+    SAUSAGE: 9
+Payments by customer type:
+    CATERING: $477
+    CASUAL: $77
+    BUSINESS: $230
+Outages by customer type:
+DAY 18
+Store inventory at the start of the day:
+    PASTRY: 12
+    SPRING: 4
+    JELLY: 1
+    EGG: 7
+    SAUSAGE: 9
+Order by CATERING customer for $150 with extras:
+    PASTRY: 12
+    SPRING: 3
+Order by CASUAL customer for $15 with extras:
+    JELLY: 1
+Order by CATERING customer for $176 with extras:
+    SPRING: 1
+    EGG: 7
+    SAUSAGE: 7
+Order by CASUAL customer for $36 with extras:
+    SAUSAGE: 2
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $326
+    CASUAL: $51
+Outages by customer type:
+    CASUAL: 1
+    BUSINESS: 3
+DAY 19
+Store inventory at the start of the day:
+    PASTRY: 30
+    SPRING: 30
+    JELLY: 30
+    EGG: 30
+    SAUSAGE: 30
+Order by CASUAL customer for $6 with extras:
+    SPRING: 2
+Order by CASUAL customer for $12 with extras:
+    EGG: 2
+Order by CATERING customer for $119 with extras:
+    SPRING: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CATERING customer for $235 with extras:
+    PASTRY: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by BUSINESS customer for $88 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $227 with extras:
+    JELLY: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $35 with extras:
+    JELLY: 2
+Order by CASUAL customer for $35 with extras:
+    JELLY: 2
+Order by CASUAL customer for $18 with extras:
+    EGG: 2
+Store inventory at the end of the day:
+    PASTRY: 23
+    SPRING: 21
+    JELLY: 14
+    EGG: 14
+    SAUSAGE: 13
+Payments by customer type:
+    CATERING: $581
+    CASUAL: $106
+    BUSINESS: $88
+Outages by customer type:
+DAY 20
+Store inventory at the start of the day:
+    PASTRY: 23
+    SPRING: 21
+    JELLY: 14
+    EGG: 14
+    SAUSAGE: 13
+Order by CATERING customer for $197 with extras:
+    JELLY: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CATERING customer for $154 with extras:
+    SPRING: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $12 with extras:
+    EGG: 2
+Order by CASUAL customer for $30 with extras:
+    JELLY: 2
+Order by BUSINESS customer for $120 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $5 with extras:
+    SPRING: 1
+Store inventory at the end of the day:
+    PASTRY: 21
+    SPRING: 13
+    JELLY: 5
+    EGG: 0
+    SAUSAGE: 1
+Payments by customer type:
+    CATERING: $351
+    CASUAL: $47
+    BUSINESS: $120
+Outages by customer type:
+    BUSINESS: 1
+DAY 21
+Store inventory at the start of the day:
+    PASTRY: 21
+    SPRING: 13
+    JELLY: 5
+    EGG: 0
+    SAUSAGE: 1
+Order by CASUAL customer for $4 with extras:
+    SPRING: 2
+Order by CASUAL customer for $7 with extras:
+    SPRING: 2
+Order by CATERING customer for $150 with extras:
+    PASTRY: 15
+Order by CATERING customer for $92 with extras:
+    PASTRY: 6
+    SPRING: 9
+Order by CASUAL customer for $8 with extras:
+    SAUSAGE: 1
+Order by CASUAL customer for $25 with extras:
+    JELLY: 1
+Order by CASUAL customer for $5 with extras:
+    JELLY: 1
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by CASUAL customer for $35 with extras:
+    JELLY: 2
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $242
+    CASUAL: $104
+Outages by customer type:
+    BUSINESS: 1
+DAY 22
+Store inventory at the start of the day:
+    PASTRY: 30
+    SPRING: 30
+    JELLY: 30
+    EGG: 30
+    SAUSAGE: 30
+Order by CATERING customer for $173 with extras:
+    PASTRY: 5
+    SPRING: 5
+    JELLY: 5
+Order by CASUAL customer for $35 with extras:
+    JELLY: 2
+Order by CASUAL customer for $60 with extras:
+    JELLY: 2
+Order by BUSINESS customer for $137 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $127 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $32 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $4 with extras:
+    SPRING: 1
+Order by CATERING customer for $118 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Store inventory at the end of the day:
+    PASTRY: 21
+    SPRING: 15
+    JELLY: 12
+    EGG: 21
+    SAUSAGE: 24
+Payments by customer type:
+    CATERING: $291
+    CASUAL: $131
+    BUSINESS: $264
+Outages by customer type:
+DAY 23
+Store inventory at the start of the day:
+    PASTRY: 21
+    SPRING: 15
+    JELLY: 12
+    EGG: 21
+    SAUSAGE: 24
+Order by CATERING customer for $159 with extras:
+    PASTRY: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CATERING customer for $202 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $3 with extras:
+    SPRING: 1
+Order by BUSINESS customer for $110 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $8 with extras:
+    EGG: 1
+Order by CASUAL customer for $15 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Order by BUSINESS customer for $122 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 5
+    SPRING: 10
+    JELLY: 3
+    EGG: 6
+    SAUSAGE: 15
+Payments by customer type:
+    CATERING: $361
+    CASUAL: $35
+    BUSINESS: $232
+Outages by customer type:
+DAY 24
+Store inventory at the start of the day:
+    PASTRY: 5
+    SPRING: 10
+    JELLY: 3
+    EGG: 6
+    SAUSAGE: 15
+Order by BUSINESS customer for $111 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $15 with extras:
+    JELLY: 1
+Order by CATERING customer for $89 with extras:
+    PASTRY: 3
+    SPRING: 8
+    EGG: 4
+Order by CASUAL customer for $20 with extras:
+    SAUSAGE: 1
+Order by CATERING customer for $156 with extras:
+    SAUSAGE: 12
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $245
+    CASUAL: $35
+    BUSINESS: $111
+Outages by customer type:
+    CASUAL: 1
+    BUSINESS: 1
+DAY 25
+Store inventory at the start of the day:
+    PASTRY: 30
+    SPRING: 30
+    JELLY: 30
+    EGG: 30
+    SAUSAGE: 30
+Order by CASUAL customer for $30 with extras:
+    PASTRY: 2
+Order by CATERING customer for $155 with extras:
+    PASTRY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CASUAL customer for $1 with extras:
+    SPRING: 1
+Order by BUSINESS customer for $78 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by CASUAL customer for $14 with extras:
+    EGG: 2
+Order by CATERING customer for $158 with extras:
+    PASTRY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CATERING customer for $154 with extras:
+    PASTRY: 5
+    EGG: 5
+    SAUSAGE: 5
+Store inventory at the end of the day:
+    PASTRY: 11
+    SPRING: 27
+    JELLY: 27
+    EGG: 11
+    SAUSAGE: 13
+Payments by customer type:
+    CATERING: $467
+    CASUAL: $65
+    BUSINESS: $78
+Outages by customer type:
+DAY 26
+Store inventory at the start of the day:
+    PASTRY: 11
+    SPRING: 27
+    JELLY: 27
+    EGG: 11
+    SAUSAGE: 13
+Order by CASUAL customer for $9 with extras:
+    SPRING: 2
+Order by CASUAL customer for $15 with extras:
+    PASTRY: 2
+Order by BUSINESS customer for $108 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $118 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Order by CATERING customer for $76 with extras:
+    PASTRY: 2
+    SPRING: 13
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 5
+    JELLY: 25
+    EGG: 4
+    SAUSAGE: 11
+Payments by customer type:
+    CATERING: $194
+    CASUAL: $24
+    BUSINESS: $108
+Outages by customer type:
+    BUSINESS: 1
+DAY 27
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 5
+    JELLY: 25
+    EGG: 4
+    SAUSAGE: 11
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $218 with extras:
+    SPRING: 5
+    JELLY: 10
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 15
+    EGG: 4
+    SAUSAGE: 9
+Payments by customer type:
+    CATERING: $218
+    CASUAL: $24
+Outages by customer type:
+    BUSINESS: 3
+DAY 28
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 15
+    EGG: 4
+    SAUSAGE: 9
+Order by CATERING customer for $295 with extras:
+    JELLY: 15
+Order by CASUAL customer for $14 with extras:
+    EGG: 2
+Order by CATERING customer for $142 with extras:
+    EGG: 2
+    SAUSAGE: 9
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $437
+    CASUAL: $14
+Outages by customer type:
+    CATERING: 1
+    BUSINESS: 1
+DAY 29
+Store inventory at the start of the day:
+    PASTRY: 30
+    SPRING: 30
+    JELLY: 30
+    EGG: 30
+    SAUSAGE: 30
+Order by BUSINESS customer for $109 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $162 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $44 with extras:
+    SAUSAGE: 2
+Order by BUSINESS customer for $102 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $14 with extras:
+    EGG: 1
+Order by CATERING customer for $159 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Store inventory at the end of the day:
+    PASTRY: 16
+    SPRING: 16
+    JELLY: 26
+    EGG: 25
+    SAUSAGE: 14
+Payments by customer type:
+    CATERING: $321
+    CASUAL: $58
+    BUSINESS: $211
+Outages by customer type:
+DAY 30
+Store inventory at the start of the day:
+    PASTRY: 16
+    SPRING: 16
+    JELLY: 26
+    EGG: 25
+    SAUSAGE: 14
+Order by CATERING customer for $164 with extras:
+    JELLY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CASUAL customer for $5 with extras:
+    JELLY: 1
+Order by BUSINESS customer for $112 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $119 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $103 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 10
+    SPRING: 10
+    JELLY: 14
+    EGG: 14
+    SAUSAGE: 3
+Payments by customer type:
+    CATERING: $164
+    CASUAL: $5
+    BUSINESS: $334
+Outages by customer type:
+
+STATISTICS FOR 30 DAYS.
+Rolls sold by type:
+    PASTRY: 79
+    SPRING: 84
+    JELLY: 84
+    EGG: 85
+    SAUSAGE: 88
+Total number of rolls sold: 420
+Total sales: $14192
+Total outages: 46
+
+
+
+DAY 1
+Store inventory at the start of the day:
+    PASTRY: 45
+    SPRING: 45
+    JELLY: 45
+    EGG: 45
+    SAUSAGE: 45
+Order by CASUAL customer for $10 with extras:
+    SPRING: 2
+Order by BUSINESS customer for $110 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $124 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $147 with extras:
+    PASTRY: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CATERING customer for $134 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $27 with extras:
+    PASTRY: 2
+Store inventory at the end of the day:
+    PASTRY: 34
+    SPRING: 34
+    JELLY: 36
+    EGG: 31
+    SAUSAGE: 36
+Payments by customer type:
+    CASUAL: $37
+    CATERING: $281
+    BUSINESS: $234
+Outages by customer type:
+DAY 2
+Store inventory at the start of the day:
+    PASTRY: 34
+    SPRING: 34
+    JELLY: 36
+    EGG: 31
+    SAUSAGE: 36
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $10 with extras:
+    JELLY: 1
+Order by CATERING customer for $240 with extras:
+    PASTRY: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CATERING customer for $164 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $3 with extras:
+    SPRING: 1
+Order by CASUAL customer for $25 with extras:
+    JELLY: 1
+Order by BUSINESS customer for $113 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by BUSINESS customer for $125 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $4 with extras:
+    SPRING: 1
+Store inventory at the end of the day:
+    PASTRY: 19
+    SPRING: 23
+    JELLY: 24
+    EGG: 27
+    SAUSAGE: 22
+Payments by customer type:
+    CASUAL: $71
+    CATERING: $404
+    BUSINESS: $238
+Outages by customer type:
+DAY 3
+Store inventory at the start of the day:
+    PASTRY: 19
+    SPRING: 23
+    JELLY: 24
+    EGG: 27
+    SAUSAGE: 22
+Order by CATERING customer for $175 with extras:
+    JELLY: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $7 with extras:
+    SPRING: 2
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by CASUAL customer for $15 with extras:
+    PASTRY: 2
+Order by BUSINESS customer for $117 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $6 with extras:
+    SPRING: 2
+Store inventory at the end of the day:
+    PASTRY: 15
+    SPRING: 17
+    JELLY: 16
+    EGG: 20
+    SAUSAGE: 15
+Payments by customer type:
+    CASUAL: $48
+    CATERING: $175
+    BUSINESS: $117
+Outages by customer type:
+DAY 4
+Store inventory at the start of the day:
+    PASTRY: 15
+    SPRING: 17
+    JELLY: 16
+    EGG: 20
+    SAUSAGE: 15
+Order by CASUAL customer for $7 with extras:
+    SPRING: 2
+Order by CATERING customer for $188 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $20 with extras:
+    SAUSAGE: 1
+Order by BUSINESS customer for $95 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $45 with extras:
+    JELLY: 2
+Store inventory at the end of the day:
+    PASTRY: 8
+    SPRING: 13
+    JELLY: 7
+    EGG: 13
+    SAUSAGE: 12
+Payments by customer type:
+    CASUAL: $72
+    CATERING: $188
+    BUSINESS: $95
+Outages by customer type:
+DAY 5
+Store inventory at the start of the day:
+    PASTRY: 8
+    SPRING: 13
+    JELLY: 7
+    EGG: 13
+    SAUSAGE: 12
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $21 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $3 with extras:
+    SPRING: 2
+Order by CASUAL customer for $4 with extras:
+    SPRING: 2
+Order by BUSINESS customer for $99 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $138 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $30 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $20 with extras:
+    EGG: 2
+Order by CATERING customer for $173 with extras:
+    PASTRY: 1
+    SPRING: 2
+    EGG: 4
+    SAUSAGE: 8
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 2
+Payments by customer type:
+    CASUAL: $87
+    CATERING: $311
+    BUSINESS: $99
+Outages by customer type:
+    BUSINESS: 1
+DAY 6
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 2
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 1
+Order by CASUAL customer for $4 with extras:
+    SAUSAGE: 1
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CASUAL: $20
+Outages by customer type:
+    CASUAL: 5
+    CATERING: 2
+    BUSINESS: 1
+DAY 7
+Store inventory at the start of the day:
+    PASTRY: 45
+    SPRING: 45
+    JELLY: 45
+    EGG: 45
+    SAUSAGE: 45
+Order by CASUAL customer for $10 with extras:
+    JELLY: 1
+Order by CATERING customer for $129 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $16 with extras:
+    EGG: 2
+Order by CASUAL customer for $6 with extras:
+    EGG: 1
+Order by BUSINESS customer for $118 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $20 with extras:
+    EGG: 2
+Order by CATERING customer for $149 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by BUSINESS customer for $87 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 31
+    SPRING: 36
+    JELLY: 35
+    EGG: 31
+    SAUSAGE: 36
+Payments by customer type:
+    CASUAL: $52
+    CATERING: $278
+    BUSINESS: $205
+Outages by customer type:
+DAY 8
+Store inventory at the start of the day:
+    PASTRY: 31
+    SPRING: 36
+    JELLY: 35
+    EGG: 31
+    SAUSAGE: 36
+Order by CATERING customer for $235 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $4 with extras:
+    SPRING: 1
+Order by BUSINESS customer for $84 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $102 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by CASUAL customer for $28 with extras:
+    SAUSAGE: 1
+Store inventory at the end of the day:
+    PASTRY: 27
+    SPRING: 26
+    JELLY: 25
+    EGG: 27
+    SAUSAGE: 26
+Payments by customer type:
+    CASUAL: $52
+    CATERING: $235
+    BUSINESS: $186
+Outages by customer type:
+DAY 9
+Store inventory at the start of the day:
+    PASTRY: 27
+    SPRING: 26
+    JELLY: 25
+    EGG: 27
+    SAUSAGE: 26
+Order by BUSINESS customer for $130 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $115 with extras:
+    SPRING: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CASUAL customer for $18 with extras:
+    EGG: 2
+Order by CASUAL customer for $8 with extras:
+    EGG: 1
+Order by CATERING customer for $178 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by BUSINESS customer for $106 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $102 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 1
+Store inventory at the end of the day:
+    PASTRY: 16
+    SPRING: 15
+    JELLY: 14
+    EGG: 8
+    SAUSAGE: 14
+Payments by customer type:
+    CASUAL: $42
+    CATERING: $293
+    BUSINESS: $338
+Outages by customer type:
+DAY 10
+Store inventory at the start of the day:
+    PASTRY: 16
+    SPRING: 15
+    JELLY: 14
+    EGG: 8
+    SAUSAGE: 14
+Order by CASUAL customer for $18 with extras:
+    EGG: 2
+Order by CATERING customer for $119 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CATERING customer for $177 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Store inventory at the end of the day:
+    PASTRY: 16
+    SPRING: 5
+    JELLY: 4
+    EGG: 1
+    SAUSAGE: 9
+Payments by customer type:
+    CASUAL: $18
+    CATERING: $296
+Outages by customer type:
+    BUSINESS: 1
+DAY 11
+Store inventory at the start of the day:
+    PASTRY: 16
+    SPRING: 5
+    JELLY: 4
+    EGG: 1
+    SAUSAGE: 9
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $6 with extras:
+    EGG: 1
+Order by CASUAL customer for $15 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $10 with extras:
+    JELLY: 1
+Order by CATERING customer for $143 with extras:
+    PASTRY: 13
+    SPRING: 2
+Order by CASUAL customer for $30 with extras:
+    JELLY: 2
+Order by CASUAL customer for $8 with extras:
+    SPRING: 2
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 1
+    JELLY: 1
+    EGG: 0
+    SAUSAGE: 9
+Payments by customer type:
+    CASUAL: $78
+    CATERING: $143
+Outages by customer type:
+    BUSINESS: 3
+DAY 12
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 1
+    JELLY: 1
+    EGG: 0
+    SAUSAGE: 9
+Order by CASUAL customer for $12 with extras:
+    SAUSAGE: 1
+Order by CASUAL customer for $20 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $67 with extras:
+    SPRING: 1
+    JELLY: 1
+    SAUSAGE: 4
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CASUAL: $56
+    CATERING: $67
+Outages by customer type:
+    CASUAL: 1
+    CATERING: 1
+    BUSINESS: 1
+DAY 13
+Store inventory at the start of the day:
+    PASTRY: 45
+    SPRING: 45
+    JELLY: 45
+    EGG: 45
+    SAUSAGE: 45
+Order by CASUAL customer for $2 with extras:
+    SPRING: 1
+Order by CASUAL customer for $24 with extras:
+    PASTRY: 2
+Order by CATERING customer for $127 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CATERING customer for $177 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $30 with extras:
+    JELLY: 2
+Order by BUSINESS customer for $83 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $35 with extras:
+    JELLY: 2
+Store inventory at the end of the day:
+    PASTRY: 36
+    SPRING: 37
+    JELLY: 29
+    EGG: 33
+    SAUSAGE: 43
+Payments by customer type:
+    CASUAL: $91
+    CATERING: $304
+    BUSINESS: $83
+Outages by customer type:
+DAY 14
+Store inventory at the start of the day:
+    PASTRY: 36
+    SPRING: 37
+    JELLY: 29
+    EGG: 33
+    SAUSAGE: 43
+Order by CATERING customer for $165 with extras:
+    JELLY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CASUAL customer for $21 with extras:
+    PASTRY: 2
+Order by BUSINESS customer for $125 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $2 with extras:
+    SPRING: 1
+Order by BUSINESS customer for $108 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $7 with extras:
+    SPRING: 2
+Order by CATERING customer for $86 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Order by CATERING customer for $194 with extras:
+    PASTRY: 5
+    JELLY: 5
+    SAUSAGE: 5
+Store inventory at the end of the day:
+    PASTRY: 19
+    SPRING: 25
+    JELLY: 15
+    EGG: 19
+    SAUSAGE: 29
+Payments by customer type:
+    CASUAL: $39
+    CATERING: $445
+    BUSINESS: $233
+Outages by customer type:
+DAY 15
+Store inventory at the start of the day:
+    PASTRY: 19
+    SPRING: 25
+    JELLY: 15
+    EGG: 19
+    SAUSAGE: 29
+Order by BUSINESS customer for $112 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $33 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $2 with extras:
+    EGG: 1
+Order by CASUAL customer for $5 with extras:
+    SPRING: 1
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $32 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $25 with extras:
+    JELLY: 2
+Order by CASUAL customer for $8 with extras:
+    SPRING: 2
+Order by BUSINESS customer for $105 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $150 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $6 with extras:
+    EGG: 1
+Order by CATERING customer for $119 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Store inventory at the end of the day:
+    PASTRY: 3
+    SPRING: 8
+    JELLY: 9
+    EGG: 8
+    SAUSAGE: 16
+Payments by customer type:
+    CASUAL: $135
+    CATERING: $269
+    BUSINESS: $217
+Outages by customer type:
+DAY 16
+Store inventory at the start of the day:
+    PASTRY: 3
+    SPRING: 8
+    JELLY: 9
+    EGG: 8
+    SAUSAGE: 16
+Order by BUSINESS customer for $95 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $6 with extras:
+    SPRING: 2
+Order by CASUAL customer for $4 with extras:
+    SPRING: 1
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $192 with extras:
+    PASTRY: 1
+    SPRING: 3
+    JELLY: 7
+    EGG: 4
+Order by CATERING customer for $164 with extras:
+    EGG: 2
+    SAUSAGE: 12
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CASUAL: $34
+    CATERING: $356
+    BUSINESS: $95
+Outages by customer type:
+    CASUAL: 3
+    BUSINESS: 1
+DAY 17
+Store inventory at the start of the day:
+    PASTRY: 45
+    SPRING: 45
+    JELLY: 45
+    EGG: 45
+    SAUSAGE: 45
+Order by CASUAL customer for $8 with extras:
+    EGG: 1
+Order by BUSINESS customer for $122 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $178 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CATERING customer for $160 with extras:
+    PASTRY: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $20 with extras:
+    JELLY: 2
+Order by CASUAL customer for $30 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $8 with extras:
+    SPRING: 2
+Order by BUSINESS customer for $117 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 34
+    SPRING: 34
+    JELLY: 34
+    EGG: 35
+    SAUSAGE: 31
+Payments by customer type:
+    CASUAL: $66
+    CATERING: $338
+    BUSINESS: $239
+Outages by customer type:
+DAY 18
+Store inventory at the start of the day:
+    PASTRY: 34
+    SPRING: 34
+    JELLY: 34
+    EGG: 35
+    SAUSAGE: 31
+Order by CATERING customer for $161 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by BUSINESS customer for $120 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 1
+Order by CATERING customer for $171 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CATERING customer for $174 with extras:
+    PASTRY: 5
+    SPRING: 5
+    JELLY: 5
+Order by CASUAL customer for $12 with extras:
+    PASTRY: 1
+Store inventory at the end of the day:
+    PASTRY: 26
+    SPRING: 17
+    JELLY: 17
+    EGG: 28
+    SAUSAGE: 23
+Payments by customer type:
+    CASUAL: $28
+    CATERING: $506
+    BUSINESS: $120
+Outages by customer type:
+DAY 19
+Store inventory at the start of the day:
+    PASTRY: 26
+    SPRING: 17
+    JELLY: 17
+    EGG: 28
+    SAUSAGE: 23
+Order by CASUAL customer for $12 with extras:
+    EGG: 2
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Order by BUSINESS customer for $112 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $113 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $12 with extras:
+    SAUSAGE: 1
+Order by BUSINESS customer for $116 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 16
+    SPRING: 8
+    JELLY: 13
+    EGG: 22
+    SAUSAGE: 13
+Payments by customer type:
+    CASUAL: $33
+    CATERING: $113
+    BUSINESS: $228
+Outages by customer type:
+DAY 20
+Store inventory at the start of the day:
+    PASTRY: 16
+    SPRING: 8
+    JELLY: 13
+    EGG: 22
+    SAUSAGE: 13
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $12 with extras:
+    EGG: 2
+Order by CATERING customer for $139 with extras:
+    SPRING: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CATERING customer for $147 with extras:
+    PASTRY: 15
+Order by CATERING customer for $235 with extras:
+    SPRING: 3
+    JELLY: 12
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $10 with extras:
+    EGG: 1
+Order by CASUAL customer for $10 with extras:
+    EGG: 2
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 12
+    SAUSAGE: 6
+Payments by customer type:
+    CASUAL: $85
+    CATERING: $521
+Outages by customer type:
+    BUSINESS: 2
+DAY 21
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 12
+    SAUSAGE: 6
+Order by CASUAL customer for $8 with extras:
+    EGG: 2
+Order by CATERING customer for $186 with extras:
+    EGG: 10
+    SAUSAGE: 5
+Order by CASUAL customer for $12 with extras:
+    SAUSAGE: 1
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CASUAL: $20
+    CATERING: $186
+Outages by customer type:
+    BUSINESS: 1
+DAY 22
+Store inventory at the start of the day:
+    PASTRY: 45
+    SPRING: 45
+    JELLY: 45
+    EGG: 45
+    SAUSAGE: 45
+Order by CASUAL customer for $28 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $188 with extras:
+    PASTRY: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by BUSINESS customer for $101 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $35 with extras:
+    JELLY: 2
+Order by CATERING customer for $111 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Order by BUSINESS customer for $126 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $12 with extras:
+    PASTRY: 1
+Order by BUSINESS customer for $126 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 28
+    SPRING: 34
+    JELLY: 32
+    EGG: 34
+    SAUSAGE: 32
+Payments by customer type:
+    CASUAL: $75
+    CATERING: $299
+    BUSINESS: $353
+Outages by customer type:
+DAY 23
+Store inventory at the start of the day:
+    PASTRY: 28
+    SPRING: 34
+    JELLY: 32
+    EGG: 34
+    SAUSAGE: 32
+Order by BUSINESS customer for $98 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $106 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $4 with extras:
+    EGG: 1
+Order by CASUAL customer for $4 with extras:
+    EGG: 1
+Order by CATERING customer for $125 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Order by CATERING customer for $102 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Order by CATERING customer for $149 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $10 with extras:
+    EGG: 1
+Order by CASUAL customer for $18 with extras:
+    EGG: 2
+Store inventory at the end of the day:
+    PASTRY: 14
+    SPRING: 15
+    JELLY: 23
+    EGG: 10
+    SAUSAGE: 28
+Payments by customer type:
+    CASUAL: $36
+    CATERING: $376
+    BUSINESS: $204
+Outages by customer type:
+DAY 24
+Store inventory at the start of the day:
+    PASTRY: 14
+    SPRING: 15
+    JELLY: 23
+    EGG: 10
+    SAUSAGE: 28
+Order by CASUAL customer for $12 with extras:
+    SAUSAGE: 1
+Order by BUSINESS customer for $89 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $148 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $6 with extras:
+    SPRING: 2
+Order by BUSINESS customer for $132 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $87 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $5 with extras:
+    SPRING: 1
+Store inventory at the end of the day:
+    PASTRY: 3
+    SPRING: 1
+    JELLY: 17
+    EGG: 4
+    SAUSAGE: 16
+Payments by customer type:
+    CASUAL: $23
+    CATERING: $148
+    BUSINESS: $308
+Outages by customer type:
+DAY 25
+Store inventory at the start of the day:
+    PASTRY: 3
+    SPRING: 1
+    JELLY: 17
+    EGG: 4
+    SAUSAGE: 16
+Order by CASUAL customer for $6 with extras:
+    EGG: 1
+Order by CASUAL customer for $5 with extras:
+    SPRING: 1
+Order by CASUAL customer for $21 with extras:
+    PASTRY: 2
+Order by CATERING customer for $242 with extras:
+    PASTRY: 1
+    JELLY: 14
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by CASUAL customer for $25 with extras:
+    JELLY: 2
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 3
+    SAUSAGE: 16
+Payments by customer type:
+    CASUAL: $77
+    CATERING: $242
+Outages by customer type:
+    BUSINESS: 1
+DAY 26
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 3
+    SAUSAGE: 16
+Order by CASUAL customer for $6 with extras:
+    EGG: 1
+Order by CASUAL customer for $8 with extras:
+    EGG: 1
+Order by CATERING customer for $226 with extras:
+    EGG: 1
+    SAUSAGE: 14
+Order by CATERING customer for $44 with extras:
+    SAUSAGE: 2
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CASUAL: $14
+    CATERING: $270
+Outages by customer type:
+    CASUAL: 3
+    CATERING: 1
+    BUSINESS: 1
+DAY 27
+Store inventory at the start of the day:
+    PASTRY: 45
+    SPRING: 45
+    JELLY: 45
+    EGG: 45
+    SAUSAGE: 45
+Order by BUSINESS customer for $103 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $40 with extras:
+    JELLY: 2
+Order by BUSINESS customer for $110 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $209 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $7 with extras:
+    SPRING: 2
+Order by CASUAL customer for $8 with extras:
+    EGG: 1
+Order by CASUAL customer for $35 with extras:
+    JELLY: 2
+Order by CATERING customer for $168 with extras:
+    PASTRY: 5
+    SPRING: 5
+    JELLY: 5
+Store inventory at the end of the day:
+    PASTRY: 31
+    SPRING: 34
+    JELLY: 27
+    EGG: 35
+    SAUSAGE: 41
+Payments by customer type:
+    CASUAL: $90
+    CATERING: $377
+    BUSINESS: $213
+Outages by customer type:
+DAY 28
+Store inventory at the start of the day:
+    PASTRY: 31
+    SPRING: 34
+    JELLY: 27
+    EGG: 35
+    SAUSAGE: 41
+Order by CASUAL customer for $6 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $15 with extras:
+    JELLY: 1
+Order by CATERING customer for $218 with extras:
+    JELLY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by BUSINESS customer for $91 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $8 with extras:
+    EGG: 1
+Order by CASUAL customer for $35 with extras:
+    JELLY: 1
+Order by CASUAL customer for $20 with extras:
+    SAUSAGE: 1
+Order by CASUAL customer for $4 with extras:
+    SPRING: 1
+Store inventory at the end of the day:
+    PASTRY: 28
+    SPRING: 31
+    JELLY: 18
+    EGG: 27
+    SAUSAGE: 33
+Payments by customer type:
+    CASUAL: $88
+    CATERING: $218
+    BUSINESS: $91
+Outages by customer type:
+DAY 29
+Store inventory at the start of the day:
+    PASTRY: 28
+    SPRING: 31
+    JELLY: 18
+    EGG: 27
+    SAUSAGE: 33
+Order by BUSINESS customer for $101 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $6 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $16 with extras:
+    EGG: 2
+Order by CATERING customer for $138 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CATERING customer for $170 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by BUSINESS customer for $135 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $177 with extras:
+    PASTRY: 5
+    SAUSAGE: 5
+    EGG: 5
+Store inventory at the end of the day:
+    PASTRY: 13
+    SPRING: 22
+    JELLY: 4
+    EGG: 6
+    SAUSAGE: 24
+Payments by customer type:
+    CASUAL: $22
+    CATERING: $485
+    BUSINESS: $236
+Outages by customer type:
+DAY 30
+Store inventory at the start of the day:
+    PASTRY: 13
+    SPRING: 22
+    JELLY: 4
+    EGG: 6
+    SAUSAGE: 24
+Order by CASUAL customer for $45 with extras:
+    JELLY: 2
+Order by CASUAL customer for $14 with extras:
+    EGG: 2
+Order by BUSINESS customer for $78 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $33 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $14 with extras:
+    EGG: 2
+Order by CASUAL customer for $18 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $28 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $124 with extras:
+    PASTRY: 8
+    SPRING: 7
+Order by CASUAL customer for $2 with extras:
+    SPRING: 1
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 12
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 20
+Payments by customer type:
+    CASUAL: $154
+    CATERING: $124
+    BUSINESS: $78
+Outages by customer type:
+    BUSINESS: 1
+
+STATISTICS FOR 30 DAYS.
+Rolls sold by type:
+    PASTRY: 91
+    SPRING: 94
+    JELLY: 90
+    EGG: 98
+    SAUSAGE: 84
+Total number of rolls sold: 457
+Total sales: $14201
+Total outages: 30
+
+
+
+DAY 1
+Store inventory at the start of the day:
+    PASTRY: 60
+    SPRING: 60
+    JELLY: 60
+    EGG: 60
+    SAUSAGE: 60
+Order by CASUAL customer for $35 with extras:
+    JELLY: 2
+Order by CASUAL customer for $9 with extras:
+    SPRING: 2
+Order by CATERING customer for $143 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by BUSINESS customer for $121 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $102 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $12 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $12 with extras:
+    PASTRY: 1
+Order by CATERING customer for $133 with extras:
+    SPRING: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CATERING customer for $163 with extras:
+    PASTRY: 5
+    SPRING: 5
+    JELLY: 5
+Store inventory at the end of the day:
+    PASTRY: 49
+    SPRING: 39
+    JELLY: 44
+    EGG: 46
+    SAUSAGE: 51
+Payments by customer type:
+    CASUAL: $68
+    CATERING: $439
+    BUSINESS: $223
+Outages by customer type:
+DAY 2
+Store inventory at the start of the day:
+    PASTRY: 49
+    SPRING: 39
+    JELLY: 44
+    EGG: 46
+    SAUSAGE: 51
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 1
+Order by BUSINESS customer for $142 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $122 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $132 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by BUSINESS customer for $116 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 43
+    SPRING: 28
+    JELLY: 33
+    EGG: 35
+    SAUSAGE: 44
+Payments by customer type:
+    CASUAL: $16
+    CATERING: $132
+    BUSINESS: $380
+Outages by customer type:
+DAY 3
+Store inventory at the start of the day:
+    PASTRY: 43
+    SPRING: 28
+    JELLY: 33
+    EGG: 35
+    SAUSAGE: 44
+Order by CASUAL customer for $40 with extras:
+    JELLY: 2
+Order by BUSINESS customer for $113 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $169 with extras:
+    PASTRY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CATERING customer for $169 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $6 with extras:
+    SPRING: 2
+Order by CATERING customer for $111 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Store inventory at the end of the day:
+    PASTRY: 31
+    SPRING: 14
+    JELLY: 24
+    EGG: 23
+    SAUSAGE: 32
+Payments by customer type:
+    CASUAL: $46
+    CATERING: $449
+    BUSINESS: $113
+Outages by customer type:
+DAY 4
+Store inventory at the start of the day:
+    PASTRY: 31
+    SPRING: 14
+    JELLY: 24
+    EGG: 23
+    SAUSAGE: 32
+Order by BUSINESS customer for $119 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $99 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $209 with extras:
+    JELLY: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by BUSINESS customer for $122 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $145 with extras:
+    SPRING: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Store inventory at the end of the day:
+    PASTRY: 24
+    SPRING: 3
+    JELLY: 13
+    EGG: 7
+    SAUSAGE: 16
+Payments by customer type:
+    CASUAL: $9
+    CATERING: $354
+    BUSINESS: $340
+Outages by customer type:
+DAY 5
+Store inventory at the start of the day:
+    PASTRY: 24
+    SPRING: 3
+    JELLY: 13
+    EGG: 7
+    SAUSAGE: 16
+Order by BUSINESS customer for $105 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $24 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $33 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $8 with extras:
+    EGG: 1
+Order by CATERING customer for $159 with extras:
+    PASTRY: 15
+Order by CASUAL customer for $21 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $12 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $4 with extras:
+    SPRING: 1
+Order by CATERING customer for $212 with extras:
+    JELLY: 11
+    EGG: 4
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 14
+Payments by customer type:
+    CASUAL: $102
+    CATERING: $371
+    BUSINESS: $105
+Outages by customer type:
+    BUSINESS: 2
+DAY 6
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 14
+Order by CATERING customer for $196 with extras:
+    SAUSAGE: 14
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $196
+Outages by customer type:
+    CASUAL: 4
+    CATERING: 2
+    BUSINESS: 1
+DAY 7
+Store inventory at the start of the day:
+    PASTRY: 60
+    SPRING: 60
+    JELLY: 60
+    EGG: 60
+    SAUSAGE: 60
+Order by BUSINESS customer for $88 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $18 with extras:
+    EGG: 2
+Order by CASUAL customer for $14 with extras:
+    EGG: 2
+Order by CASUAL customer for $20 with extras:
+    SAUSAGE: 2
+Order by BUSINESS customer for $99 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $24 with extras:
+    PASTRY: 2
+Order by CATERING customer for $99 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Order by CATERING customer for $196 with extras:
+    PASTRY: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $45 with extras:
+    JELLY: 2
+Store inventory at the end of the day:
+    PASTRY: 44
+    SPRING: 51
+    JELLY: 54
+    EGG: 42
+    SAUSAGE: 49
+Payments by customer type:
+    CASUAL: $121
+    CATERING: $295
+    BUSINESS: $187
+Outages by customer type:
+DAY 8
+Store inventory at the start of the day:
+    PASTRY: 44
+    SPRING: 51
+    JELLY: 54
+    EGG: 42
+    SAUSAGE: 49
+Order by CASUAL customer for $6 with extras:
+    PASTRY: 1
+Order by CATERING customer for $215 with extras:
+    PASTRY: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CATERING customer for $173 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $3 with extras:
+    SPRING: 1
+Order by CATERING customer for $239 with extras:
+    PASTRY: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $12 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $4 with extras:
+    SPRING: 1
+Order by CASUAL customer for $55 with extras:
+    JELLY: 2
+Order by BUSINESS customer for $108 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $16 with extras:
+    EGG: 2
+Order by BUSINESS customer for $107 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $91 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 26
+    SPRING: 38
+    JELLY: 31
+    EGG: 34
+    SAUSAGE: 28
+Payments by customer type:
+    CASUAL: $96
+    CATERING: $627
+    BUSINESS: $306
+Outages by customer type:
+DAY 9
+Store inventory at the start of the day:
+    PASTRY: 26
+    SPRING: 38
+    JELLY: 31
+    EGG: 34
+    SAUSAGE: 28
+Order by CATERING customer for $222 with extras:
+    JELLY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by BUSINESS customer for $117 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $103 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $35 with extras:
+    JELLY: 2
+Order by CASUAL customer for $10 with extras:
+    EGG: 2
+Order by CATERING customer for $121 with extras:
+    SPRING: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by BUSINESS customer for $95 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $6 with extras:
+    PASTRY: 1
+Store inventory at the end of the day:
+    PASTRY: 19
+    SPRING: 27
+    JELLY: 18
+    EGG: 16
+    SAUSAGE: 12
+Payments by customer type:
+    CASUAL: $51
+    CATERING: $343
+    BUSINESS: $315
+Outages by customer type:
+DAY 10
+Store inventory at the start of the day:
+    PASTRY: 19
+    SPRING: 27
+    JELLY: 18
+    EGG: 16
+    SAUSAGE: 12
+Order by BUSINESS customer for $116 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $218 with extras:
+    JELLY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by BUSINESS customer for $104 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $9 with extras:
+    SPRING: 2
+Store inventory at the end of the day:
+    PASTRY: 15
+    SPRING: 21
+    JELLY: 9
+    EGG: 7
+    SAUSAGE: 3
+Payments by customer type:
+    CASUAL: $9
+    CATERING: $218
+    BUSINESS: $220
+Outages by customer type:
+DAY 11
+Store inventory at the start of the day:
+    PASTRY: 15
+    SPRING: 21
+    JELLY: 9
+    EGG: 7
+    SAUSAGE: 3
+Order by CATERING customer for $165 with extras:
+    PASTRY: 15
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 1
+Order by CATERING customer for $57 with extras:
+    SPRING: 15
+Order by CASUAL customer for $2 with extras:
+    SPRING: 1
+Order by CASUAL customer for $8 with extras:
+    SPRING: 2
+Order by CATERING customer for $213 with extras:
+    SPRING: 3
+    JELLY: 9
+    EGG: 3
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 4
+    SAUSAGE: 2
+Payments by customer type:
+    CASUAL: $26
+    CATERING: $435
+Outages by customer type:
+    BUSINESS: 2
+DAY 12
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 4
+    SAUSAGE: 2
+Order by CASUAL customer for $16 with extras:
+    EGG: 2
+Order by CATERING customer for $38 with extras:
+    EGG: 2
+    SAUSAGE: 2
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CASUAL: $16
+    CATERING: $38
+Outages by customer type:
+    CASUAL: 3
+    CATERING: 2
+    BUSINESS: 2
+DAY 13
+Store inventory at the start of the day:
+    PASTRY: 60
+    SPRING: 60
+    JELLY: 60
+    EGG: 60
+    SAUSAGE: 60
+Order by CASUAL customer for $12 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $40 with extras:
+    JELLY: 2
+Order by BUSINESS customer for $111 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $114 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $164 with extras:
+    PASTRY: 5
+    SPRING: 5
+    JELLY: 5
+Order by CATERING customer for $214 with extras:
+    PASTRY: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $40 with extras:
+    JELLY: 2
+Store inventory at the end of the day:
+    PASTRY: 44
+    SPRING: 51
+    JELLY: 42
+    EGG: 56
+    SAUSAGE: 51
+Payments by customer type:
+    CASUAL: $92
+    CATERING: $378
+    BUSINESS: $225
+Outages by customer type:
+DAY 14
+Store inventory at the start of the day:
+    PASTRY: 44
+    SPRING: 51
+    JELLY: 42
+    EGG: 56
+    SAUSAGE: 51
+Order by BUSINESS customer for $90 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $189 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $2 with extras:
+    SPRING: 1
+Order by CATERING customer for $221 with extras:
+    JELLY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CASUAL customer for $14 with extras:
+    EGG: 2
+Order by BUSINESS customer for $110 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $116 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 33
+    SPRING: 44
+    JELLY: 26
+    EGG: 38
+    SAUSAGE: 40
+Payments by customer type:
+    CASUAL: $16
+    CATERING: $410
+    BUSINESS: $316
+Outages by customer type:
+DAY 15
+Store inventory at the start of the day:
+    PASTRY: 33
+    SPRING: 44
+    JELLY: 26
+    EGG: 38
+    SAUSAGE: 40
+Order by CASUAL customer for $15 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $18 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $16 with extras:
+    EGG: 2
+Order by CASUAL customer for $18 with extras:
+    PASTRY: 2
+Order by BUSINESS customer for $116 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $113 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $149 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $21 with extras:
+    PASTRY: 2
+Order by BUSINESS customer for $98 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $6 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $5 with extras:
+    SPRING: 1
+Order by CATERING customer for $164 with extras:
+    PASTRY: 5
+    SAUSAGE: 5
+    EGG: 5
+Store inventory at the end of the day:
+    PASTRY: 8
+    SPRING: 32
+    JELLY: 20
+    EGG: 25
+    SAUSAGE: 24
+Payments by customer type:
+    CASUAL: $108
+    CATERING: $313
+    BUSINESS: $327
+Outages by customer type:
+DAY 16
+Store inventory at the start of the day:
+    PASTRY: 8
+    SPRING: 32
+    JELLY: 20
+    EGG: 25
+    SAUSAGE: 24
+Order by CATERING customer for $111 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Order by CASUAL customer for $6 with extras:
+    PASTRY: 1
+Order by BUSINESS customer for $93 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $55 with extras:
+    SPRING: 15
+Order by CATERING customer for $148 with extras:
+    SPRING: 10
+    JELLY: 5
+Order by CASUAL customer for $15 with extras:
+    JELLY: 1
+Order by CASUAL customer for $45 with extras:
+    JELLY: 2
+Order by CASUAL customer for $20 with extras:
+    JELLY: 1
+Order by CASUAL customer for $28 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $30 with extras:
+    JELLY: 1
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 8
+    EGG: 18
+    SAUSAGE: 20
+Payments by customer type:
+    CASUAL: $144
+    CATERING: $314
+    BUSINESS: $93
+Outages by customer type:
+DAY 17
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 8
+    EGG: 18
+    SAUSAGE: 20
+Order by CASUAL customer for $15 with extras:
+    JELLY: 2
+Order by CATERING customer for $174 with extras:
+    JELLY: 6
+    EGG: 9
+Order by CASUAL customer for $4 with extras:
+    EGG: 1
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 1
+Order by CASUAL customer for $6 with extras:
+    EGG: 1
+Order by CASUAL customer for $12 with extras:
+    EGG: 2
+Order by CATERING customer for $134 with extras:
+    EGG: 5
+    SAUSAGE: 10
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 7
+Payments by customer type:
+    CASUAL: $77
+    CATERING: $308
+Outages by customer type:
+    BUSINESS: 2
+DAY 18
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 7
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $8 with extras:
+    SAUSAGE: 1
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $28 with extras:
+    SAUSAGE: 2
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CASUAL: $48
+    CATERING: $28
+Outages by customer type:
+    BUSINESS: 2
+DAY 19
+Store inventory at the start of the day:
+    PASTRY: 60
+    SPRING: 60
+    JELLY: 60
+    EGG: 60
+    SAUSAGE: 60
+Order by BUSINESS customer for $121 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $4 with extras:
+    SPRING: 1
+Order by BUSINESS customer for $121 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $12 with extras:
+    PASTRY: 1
+Order by CATERING customer for $191 with extras:
+    PASTRY: 5
+    SPRING: 5
+    JELLY: 5
+Store inventory at the end of the day:
+    PASTRY: 50
+    SPRING: 50
+    JELLY: 51
+    EGG: 56
+    SAUSAGE: 56
+Payments by customer type:
+    CASUAL: $16
+    CATERING: $191
+    BUSINESS: $242
+Outages by customer type:
+DAY 20
+Store inventory at the start of the day:
+    PASTRY: 50
+    SPRING: 50
+    JELLY: 51
+    EGG: 56
+    SAUSAGE: 56
+Order by BUSINESS customer for $106 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $184 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by CATERING customer for $180 with extras:
+    SPRING: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $30 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $4 with extras:
+    SPRING: 1
+Store inventory at the end of the day:
+    PASTRY: 41
+    SPRING: 42
+    JELLY: 39
+    EGG: 49
+    SAUSAGE: 49
+Payments by customer type:
+    CASUAL: $34
+    CATERING: $364
+    BUSINESS: $106
+Outages by customer type:
+DAY 21
+Store inventory at the start of the day:
+    PASTRY: 41
+    SPRING: 42
+    JELLY: 39
+    EGG: 49
+    SAUSAGE: 49
+Order by BUSINESS customer for $101 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by BUSINESS customer for $128 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $176 with extras:
+    PASTRY: 5
+    SAUSAGE: 5
+    EGG: 5
+Order by CATERING customer for $107 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Order by CASUAL customer for $15 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $4 with extras:
+    SAUSAGE: 1
+Store inventory at the end of the day:
+    PASTRY: 26
+    SPRING: 33
+    JELLY: 35
+    EGG: 35
+    SAUSAGE: 39
+Payments by customer type:
+    CASUAL: $19
+    CATERING: $283
+    BUSINESS: $229
+Outages by customer type:
+DAY 22
+Store inventory at the start of the day:
+    PASTRY: 26
+    SPRING: 33
+    JELLY: 35
+    EGG: 35
+    SAUSAGE: 39
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $161 with extras:
+    PASTRY: 5
+    EGG: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $10 with extras:
+    JELLY: 1
+Order by BUSINESS customer for $110 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $30 with extras:
+    JELLY: 2
+Order by BUSINESS customer for $97 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 17
+    SPRING: 29
+    JELLY: 28
+    EGG: 26
+    SAUSAGE: 28
+Payments by customer type:
+    CASUAL: $64
+    CATERING: $161
+    BUSINESS: $207
+Outages by customer type:
+DAY 23
+Store inventory at the start of the day:
+    PASTRY: 17
+    SPRING: 29
+    JELLY: 28
+    EGG: 26
+    SAUSAGE: 28
+Order by CATERING customer for $118 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $7 with extras:
+    SPRING: 2
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Order by CASUAL customer for $15 with extras:
+    JELLY: 1
+Order by BUSINESS customer for $109 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $4 with extras:
+    SPRING: 1
+Order by BUSINESS customer for $102 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 7
+    SPRING: 17
+    JELLY: 23
+    EGG: 22
+    SAUSAGE: 19
+Payments by customer type:
+    CASUAL: $35
+    CATERING: $118
+    BUSINESS: $211
+Outages by customer type:
+DAY 24
+Store inventory at the start of the day:
+    PASTRY: 7
+    SPRING: 17
+    JELLY: 23
+    EGG: 22
+    SAUSAGE: 19
+Order by BUSINESS customer for $116 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $169 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by CATERING customer for $168 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 10
+    JELLY: 11
+    EGG: 10
+    SAUSAGE: 15
+Payments by customer type:
+    CASUAL: $24
+    CATERING: $337
+    BUSINESS: $116
+Outages by customer type:
+DAY 25
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 10
+    JELLY: 11
+    EGG: 10
+    SAUSAGE: 15
+Order by CATERING customer for $134 with extras:
+    SPRING: 10
+    JELLY: 5
+Order by CASUAL customer for $10 with extras:
+    JELLY: 1
+Order by CASUAL customer for $30 with extras:
+    JELLY: 1
+Order by CATERING customer for $125 with extras:
+    JELLY: 4
+    EGG: 10
+    SAUSAGE: 1
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 1
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 13
+Payments by customer type:
+    CASUAL: $64
+    CATERING: $259
+Outages by customer type:
+    BUSINESS: 1
+DAY 26
+Store inventory at the start of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 13
+Order by CATERING customer for $188 with extras:
+    SAUSAGE: 13
+Store closes for the day because inventory has run out.
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 0
+    JELLY: 0
+    EGG: 0
+    SAUSAGE: 0
+Payments by customer type:
+    CATERING: $188
+Outages by customer type:
+    CASUAL: 1
+    CATERING: 2
+    BUSINESS: 1
+DAY 27
+Store inventory at the start of the day:
+    PASTRY: 60
+    SPRING: 60
+    JELLY: 60
+    EGG: 60
+    SAUSAGE: 60
+Order by CATERING customer for $134 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CATERING customer for $150 with extras:
+    PASTRY: 5
+    SPRING: 5
+    JELLY: 5
+Order by BUSINESS customer for $105 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $32 with extras:
+    SAUSAGE: 2
+Order by CASUAL customer for $27 with extras:
+    PASTRY: 2
+Order by CASUAL customer for $24 with extras:
+    EGG: 2
+Order by BUSINESS customer for $105 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $180 with extras:
+    PASTRY: 5
+    EGG: 5
+    SAUSAGE: 5
+Store inventory at the end of the day:
+    PASTRY: 44
+    SPRING: 46
+    JELLY: 46
+    EGG: 44
+    SAUSAGE: 49
+Payments by customer type:
+    CASUAL: $83
+    CATERING: $464
+    BUSINESS: $210
+Outages by customer type:
+DAY 28
+Store inventory at the start of the day:
+    PASTRY: 44
+    SPRING: 46
+    JELLY: 46
+    EGG: 44
+    SAUSAGE: 49
+Order by CATERING customer for $134 with extras:
+    SPRING: 5
+    JELLY: 5
+    EGG: 5
+Order by CASUAL customer for $9 with extras:
+    PASTRY: 1
+Order by BUSINESS customer for $96 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $7 with extras:
+    SPRING: 2
+Order by CATERING customer for $180 with extras:
+    PASTRY: 5
+    JELLY: 5
+    EGG: 5
+Order by CATERING customer for $152 with extras:
+    PASTRY: 5
+    SPRING: 5
+    JELLY: 5
+Order by CASUAL customer for $6 with extras:
+    SPRING: 2
+Store inventory at the end of the day:
+    PASTRY: 31
+    SPRING: 30
+    JELLY: 29
+    EGG: 32
+    SAUSAGE: 47
+Payments by customer type:
+    CASUAL: $22
+    CATERING: $466
+    BUSINESS: $96
+Outages by customer type:
+DAY 29
+Store inventory at the start of the day:
+    PASTRY: 31
+    SPRING: 30
+    JELLY: 29
+    EGG: 32
+    SAUSAGE: 47
+Order by CASUAL customer for $16 with extras:
+    SAUSAGE: 1
+Order by CASUAL customer for $36 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $139 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by BUSINESS customer for $111 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $24 with extras:
+    SAUSAGE: 2
+Order by CATERING customer for $113 with extras:
+    PASTRY: 5
+    SPRING: 5
+    EGG: 5
+Store inventory at the end of the day:
+    PASTRY: 19
+    SPRING: 18
+    JELLY: 27
+    EGG: 25
+    SAUSAGE: 35
+Payments by customer type:
+    CASUAL: $76
+    CATERING: $252
+    BUSINESS: $111
+Outages by customer type:
+DAY 30
+Store inventory at the start of the day:
+    PASTRY: 19
+    SPRING: 18
+    JELLY: 27
+    EGG: 25
+    SAUSAGE: 35
+Order by BUSINESS customer for $114 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CATERING customer for $212 with extras:
+    PASTRY: 5
+    JELLY: 5
+    SAUSAGE: 5
+Order by BUSINESS customer for $86 with extras:
+    PASTRY: 2
+    SPRING: 2
+    JELLY: 2
+    EGG: 2
+    SAUSAGE: 2
+Order by CASUAL customer for $30 with extras:
+    JELLY: 1
+Order by CASUAL customer for $15 with extras:
+    JELLY: 1
+Order by CATERING customer for $136 with extras:
+    PASTRY: 5
+    SPRING: 5
+    SAUSAGE: 5
+Order by CASUAL customer for $20 with extras:
+    SAUSAGE: 1
+Order by CATERING customer for $157 with extras:
+    PASTRY: 5
+    SPRING: 5
+    JELLY: 5
+Store inventory at the end of the day:
+    PASTRY: 0
+    SPRING: 4
+    JELLY: 11
+    EGG: 21
+    SAUSAGE: 20
+Payments by customer type:
+    CASUAL: $65
+    CATERING: $505
+    BUSINESS: $200
+Outages by customer type:
+    BUSINESS: 1
+
+STATISTICS FOR 30 DAYS.
+Rolls sold by type:
+    PASTRY: 101
+    SPRING: 92
+    JELLY: 96
+    EGG: 90
+    SAUSAGE: 93
+Total number of rolls sold: 472
+Total sales: $15661
+Total outages: 28

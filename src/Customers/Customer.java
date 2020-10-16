@@ -1,19 +1,46 @@
 package Customers;
 
+import Observers.Recorder;
 import Rolls.Roll;
+import Rolls.RollFactory;
 
 import java.util.*;
 
 public abstract class Customer {
     public enum CustomerType {CASUAL, BUSINESS, CATERING};
+    private CustomerType customerType;
     protected HashMap<Roll.RollType, Integer> order = new HashMap<>();
-    protected CustomerType customerType;
+    private List<Recorder> recorders = new ArrayList<>();
+    private RollFactory rollFactory = new RollFactory();
+    protected int orderCost = 0;
+    private HashMap<Roll.RollType, Integer> rollsOrdered = new HashMap<>();
+
+    protected void setCustomerType(CustomerType customerType) {
+        this.customerType = customerType;
+    }
+
+    public CustomerType getCustomerType() {
+        return customerType;
+    }
+
+    public void addObserver(Recorder recorder) {
+        this.recorders.add(recorder);
+    }
+
+    public void removeObserver(Recorder recorder) {
+        this.recorders.remove(recorder);
+    }
+
+    protected void purchase() {
+        for (Recorder recorder : this.recorders) {
+            recorder.sale(customerType, rollsOrdered, orderCost);
+        }
+    }
 
     protected Roll.RollType chooseRollType() {
         Random random = new Random();
         return Roll.RollType.values()[random.nextInt(Roll.RollType.values().length)];
     }
-
 
     protected HashMap<Roll.RollType, Integer> orderAnyRolls(HashMap<Roll.RollType, Integer> inventory) {
         int max = 0;
@@ -23,6 +50,9 @@ public abstract class Customer {
         int supply = 0;
         for (int n : inventory.values()) {
             supply += n;
+        }
+        if (supply == 0) {
+            return inventory;
         }
 
         for (int i = 0; i < max; i++) {
@@ -37,6 +67,9 @@ public abstract class Customer {
                 Roll.RollType rollType = (Roll.RollType) entry.getKey();
                 if (inventory.get(rollType) > 0) {
                     inventory.put(rollType, ((Integer) entry.getValue()) - 1);
+                    Roll roll = rollFactory.getRoll(rollType);
+                    this.orderCost += roll.cost();
+                    this.rollsOrdered.put(rollType, rollsOrdered.getOrDefault(rollType, 0) + 1);
                     break;
                 }
             }
@@ -52,7 +85,14 @@ public abstract class Customer {
         while (iterator.hasNext()) {
             Map.Entry entry = (Map.Entry) iterator.next();
             Roll.RollType rollType = (Roll.RollType) entry.getKey();
-            inventory.put(rollType, inventory.get(rollType) - ((Integer) entry.getValue()));
+            int numberOfRolls = (Integer) entry.getValue();
+            inventory.put(rollType, inventory.get(rollType) - numberOfRolls);
+            // Create rolls and purchase them
+            for (int i = 0; i < numberOfRolls; i++) {
+                Roll roll = rollFactory.getRoll(rollType);
+                this.orderCost += roll.cost();
+                this.rollsOrdered.put(rollType, rollsOrdered.getOrDefault(rollType, 0) + 1);
+            }
         }
         return inventory;
     }
@@ -72,6 +112,4 @@ public abstract class Customer {
     }
 
     public abstract HashMap<Roll.RollType, Integer> order(HashMap<Roll.RollType, Integer> inventory);
-
-    public CustomerType getCustomerType() {return this.customerType;}
 }
