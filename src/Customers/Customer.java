@@ -23,6 +23,7 @@ public abstract class Customer {
         return customerType;
     }
 
+    // Observer Pattern methods
     public void addObserver(Recorder recorder) {
         this.recorders.add(recorder);
     }

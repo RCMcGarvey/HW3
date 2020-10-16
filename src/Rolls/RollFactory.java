@@ -6,12 +6,14 @@ import Rolls.Extras.Topping;
 
 import java.util.Random;
 
+// This class along with the concrete Roll classes implement a Factory Pattern
 public class RollFactory {
     private int getRandomInt(int max) {
         Random random = new Random();
         return random.nextInt(max);
     }
 
+    // This method utilizes the Decorator Pattern to create rolls with extras
     private Roll applyExtras(Roll roll) {
         // Apply sauces to roll
         for (int i = 0; i < getRandomInt(4); i++) {
@@ -40,7 +42,7 @@ public class RollFactory {
         } else if (rollType == Roll.RollType.JELLY) {
             return applyExtras(new JellyRoll());
         } else {
-            // Should probably throw exception instead
+            // Never happens, but should probably throw exception instead
             return null;
         }
     }

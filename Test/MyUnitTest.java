@@ -77,7 +77,9 @@ public class MyUnitTest {
         inventory.put(Roll.RollType.PASTRY, 1);
         inventory.put(Roll.RollType.SAUSAGE, 1);
         inventory.put(Roll.RollType.JELLY, 1);
-        assertEquals(myCust.order(inventory), inventory);
+        Integer originalAmount = inventory.get(Roll.RollType.SPRING);
+        Integer finalAmount = myCust.order(inventory).get(Roll.RollType.SPRING);
+        assertEquals(finalAmount, originalAmount);
     }
 
     @Test
@@ -90,7 +92,9 @@ public class MyUnitTest {
         inventory.put(Roll.RollType.PASTRY, 30);
         inventory.put(Roll.RollType.SAUSAGE, 30);
         inventory.put(Roll.RollType.JELLY, 30);
-        assertNotEquals(myCust.order(inventory), inventory);
+        Integer originalAmount = inventory.get(Roll.RollType.SPRING);
+        Integer finalAmount = myCust.order(inventory).get(Roll.RollType.SPRING);
+        assertNotEquals(finalAmount, originalAmount);
     }
 
 }

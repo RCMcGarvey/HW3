@@ -29,6 +29,7 @@ public class Main {
             System.out.println("DAY " + (i + 1));
 
             // Get cashier for the day
+            // Cashier is the observer in the Observer Pattern
             Cashier cashier = new Cashier();
 
             // Restock store if it has no inventory
@@ -88,13 +89,16 @@ public class Main {
     }
 
     private static ArrayList<Customer> getCustomers(Recorder recorder) {
+        // These customers are created with a Factory Pattern
+        //     They also use a Factory Pattern with a Decorator Pattern attached to buy rolls with extras.
+        //     They also are the observables in the Observer Pattern used to track orders
+
         ArrayList<Customer> customers = new ArrayList<>();
         CustomerFactory customerFactory = new CustomerFactory();
         Random random = new Random();
 
         // Create casual customers
         for (int i = 0; i < random.nextInt(12) + 1; i++) {
-//        for (int i = 0; i < 1; i++) {
             Customer customer = customerFactory.getCustomer(Customer.CustomerType.CASUAL);
             customer.addObserver(recorder);
             customers.add(customer);

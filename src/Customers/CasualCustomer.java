@@ -1,6 +1,5 @@
 package Customers;
 
-import Observers.Recorder;
 import Rolls.Roll;
 
 import java.util.*;

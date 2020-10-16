@@ -1,5 +1,6 @@
 package Customers;
 
+// This class along with the concrete Customers implement a Factory Pattern
 public class CustomerFactory {
     public Customer getCustomer(Customer.CustomerType customerType) {
         if (customerType == Customer.CustomerType.CASUAL) {
@@ -9,7 +10,7 @@ public class CustomerFactory {
         } else if (customerType == Customer.CustomerType.CATERING) {
             return new CateringCustomer();
         } else {
-            // Should probably throw exception instead
+            // Never happens, but should probably throw exception instead
             return null;
         }
     }
