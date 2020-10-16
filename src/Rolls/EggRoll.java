@@ -1,18 +1,12 @@
 package Rolls;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class EggRoll implements Rolls {
-
-    EggRoll(int quantity){
-        this.inventory = quantity;
+public class EggRoll extends Roll {
+    EggRoll() {
+        setRollType(RollType.EGG);
     }
 
-    public int inventory;
-
     @Override
-    public int getInventory() {
-        return inventory;
+    public int cost() {
+        return 2;
     }
 }

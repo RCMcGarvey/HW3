@@ -1,15 +1,12 @@
 package Rolls;
 
-public class PastryRoll implements Rolls {
-
-    PastryRoll(int quantity){
-        this.inventory = quantity;
+public class PastryRoll extends Roll {
+    PastryRoll() {
+        setRollType(RollType.PASTRY);
     }
 
-    public int inventory;
-
     @Override
-    public int getInventory() {
-        return inventory;
+    public int cost() {
+        return 3;
     }
 }

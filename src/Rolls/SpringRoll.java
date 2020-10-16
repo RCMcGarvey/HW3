@@ -1,16 +1,12 @@
 package Rolls;
 
-public class SpringRoll implements Rolls {
-
-    SpringRoll(int quantity){
-        this.inventory = quantity;
+public class SpringRoll extends Roll {
+    SpringRoll() {
+        setRollType(RollType.SPRING);
     }
-
-    public int inventory;
 
     @Override
-    public int getInventory() {
-        return inventory;
+    public int cost() {
+        return 1;
     }
-
 }

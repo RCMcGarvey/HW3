@@ -1,15 +1,12 @@
 package Rolls;
 
-public class JellyRoll implements Rolls {
-
-    JellyRoll(int quantity){
-        this.inventory = quantity;
+public class JellyRoll extends Roll {
+    JellyRoll() {
+        setRollType(RollType.JELLY);
     }
 
-    public int inventory;
-
     @Override
-    public int getInventory() {
-        return inventory;
+    public int cost() {
+        return 5;
     }
 }

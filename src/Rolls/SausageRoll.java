@@ -1,16 +1,13 @@
 package Rolls;
 
-public class SausageRoll implements Rolls {
-
-    SausageRoll(int quantity){
-        this.inventory = quantity;
+public class SausageRoll extends Roll {
+    SausageRoll() {
+        setRollType(RollType.SAUSAGE);
     }
 
-    public int inventory;
-
     @Override
-    public int getInventory() {
-        return inventory;
+    public int cost() {
+        return 4;
     }
 
 }
