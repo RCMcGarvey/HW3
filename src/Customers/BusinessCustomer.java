@@ -6,6 +6,7 @@ import java.util.HashMap;
 
 public class BusinessCustomer extends Customer {
     public BusinessCustomer() {
+        customerType = CustomerType.BUSINESS;
         for (int i = 0; i < Roll.RollType.values().length; i++) {
             order.put(Roll.RollType.values()[i], 2);
         }

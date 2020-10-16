@@ -7,11 +7,13 @@ import java.util.*;
 public abstract class Customer {
     public enum CustomerType {CASUAL, BUSINESS, CATERING};
     protected HashMap<Roll.RollType, Integer> order = new HashMap<>();
+    protected CustomerType customerType;
 
     protected Roll.RollType chooseRollType() {
         Random random = new Random();
         return Roll.RollType.values()[random.nextInt(Roll.RollType.values().length)];
     }
+
 
     protected HashMap<Roll.RollType, Integer> orderAnyRolls(HashMap<Roll.RollType, Integer> inventory) {
         int max = 0;
@@ -70,4 +72,6 @@ public abstract class Customer {
     }
 
     public abstract HashMap<Roll.RollType, Integer> order(HashMap<Roll.RollType, Integer> inventory);
+
+    public CustomerType getCustomerType() {return this.customerType;}
 }

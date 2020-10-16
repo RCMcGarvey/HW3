@@ -7,6 +7,7 @@ import java.util.*;
 public class CasualCustomer extends Customer {
     public CasualCustomer() {
         Random random = new Random();
+        customerType = CustomerType.CASUAL;
         order.put(chooseRollType(), random.nextInt(4));
     }
 
