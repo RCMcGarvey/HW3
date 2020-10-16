@@ -1,37 +1,31 @@
 import Customers.Customer;
-import Rolls.Roll;
 import Rolls.RollFactory;
 import java.util.*;
 
 public class Store{
     //All info on dictionaries was gathered from https://www.geeksforgeeks.org/java-util-dictionary-class-java/
     Store() {
-        this.inventory.put(Roll.RollType.SPRING, 30);
-        this.inventory.put(Roll.RollType.EGG, 30);
-        this.inventory.put(Roll.RollType.PASTRY, 30);
-        this.inventory.put(Roll.RollType.SAUSAGE, 30);
-        this.inventory.put(Roll.RollType.JELLY, 30);
+        this.inventory.put("Spring Rolls", 30);
+        this.inventory.put("Egg Rolls", 30);
+        this.inventory.put("Pastry Rolls", 30);
+        this.inventory.put("Sausage Rolls", 30);
+        this.inventory.put("Jelly Rolls", 30);
+
     }
 
+    private int day = 0;
     private Random rand = new Random();
+    //recycled from HW2
+    private List<Announcer> announcers = new ArrayList<>();
+
 
     //private CustomerFactory customerFactory = new CustomerFactory()
 
-    HashMap<Roll.RollType, Integer> inventory = new HashMap<>();
+    Dictionary<String, Integer> inventory = new Hashtable<>();
 
 
 
     RollFactory rollFactory = new RollFactory();
-
-    private void refreshInventory(){
-        Set set = inventory.entrySet();
-        Iterator iterator = set.iterator();
-        while(iterator.hasNext()) {
-            Map.Entry mentry = (Map.Entry)iterator.next();
-            Roll.RollType rollType = (Roll.RollType) mentry.getKey();
-            inventory.put(rollType, 30);
-        }
-    }
 
     public void runDay(){
         List<Customer> dailyCustomers = new ArrayList<>();
@@ -43,6 +37,29 @@ public class Store{
 
 
 
+    }
+
+    public void addObserver(Announcer announcer) {
+        this.announcers.add(announcer);
+    }
+
+    public void removeObserver(Announcer announcer) {
+        this.announcers.remove(announcer);
+    }
+
+    private void changeState(String event){
+        for(Announcer announcer : this.announcers){
+            announcer.message(event);
+        }
+    }
+
+
+    private void refreshInventory(){
+        for(Enumeration i = inventory.keys(); i.hasMoreElements();) {
+            if(inventory.get(i) == 0){
+                inventory.put(i.toString(), 30);
+            }
+        }
     }
 
     private List<Customer> getCustomers(){
@@ -88,11 +105,11 @@ public class Store{
                 }
             }
         }
-        return null;
+        return
     }
 
 
-    private int day = 0;
+
 
 
 }
