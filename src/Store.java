@@ -13,7 +13,11 @@ public class Store{
 
     }
 
+    private int day = 0;
     private Random rand = new Random();
+    //recycled from HW2
+    private List<Announcer> announcers = new ArrayList<>();
+
 
     //private CustomerFactory customerFactory = new CustomerFactory()
 
@@ -22,14 +26,6 @@ public class Store{
 
 
     RollFactory rollFactory = new RollFactory();
-
-    private void refreshInventory(){
-        for(Enumeration i = inventory.keys(); i.hasMoreElements();) {
-            if(inventory.get(i) == 0){
-                inventory.put(i.toString(), 30);
-            }
-        }
-    }
 
     public void runDay(){
         List<Customer> dailyCustomers = new ArrayList<>();
@@ -41,6 +37,29 @@ public class Store{
 
 
 
+    }
+
+    public void addObserver(Announcer announcer) {
+        this.announcers.add(announcer);
+    }
+
+    public void removeObserver(Announcer announcer) {
+        this.announcers.remove(announcer);
+    }
+
+    private void changeState(String event){
+        for(Announcer announcer : this.announcers){
+            announcer.message(event);
+        }
+    }
+
+
+    private void refreshInventory(){
+        for(Enumeration i = inventory.keys(); i.hasMoreElements();) {
+            if(inventory.get(i) == 0){
+                inventory.put(i.toString(), 30);
+            }
+        }
     }
 
     private List<Customer> getCustomers(){
@@ -90,7 +109,7 @@ public class Store{
     }
 
 
-    private int day = 0;
+
 
 
 }
