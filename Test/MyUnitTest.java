@@ -90,6 +90,12 @@ public class MyUnitTest {
         inventory.put(Roll.RollType.PASTRY, 30);
         inventory.put(Roll.RollType.SAUSAGE, 30);
         inventory.put(Roll.RollType.JELLY, 30);
+        HashMap<Roll.RollType, Integer> inventory2 = new HashMap<>();
+        inventory.put(Roll.RollType.SPRING, 30);
+        inventory.put(Roll.RollType.EGG, 30);
+        inventory.put(Roll.RollType.PASTRY, 30);
+        inventory.put(Roll.RollType.SAUSAGE, 30);
+        inventory.put(Roll.RollType.JELLY, 30);
         assertNotEquals(myCust.order(inventory), inventory);
     }
 
