@@ -1,33 +1,35 @@
 import Customers.Customer;
+import Rolls.Roll;
 import Rolls.RollFactory;
 import java.util.*;
 
 public class Store{
     //All info on dictionaries was gathered from https://www.geeksforgeeks.org/java-util-dictionary-class-java/
     Store() {
-        this.inventory.put("Spring Rolls", 30);
-        this.inventory.put("Egg Rolls", 30);
-        this.inventory.put("Pastry Rolls", 30);
-        this.inventory.put("Sausage Rolls", 30);
-        this.inventory.put("Jelly Rolls", 30);
-
+        this.inventory.put(Roll.RollType.SPRING, 30);
+        this.inventory.put(Roll.RollType.EGG, 30);
+        this.inventory.put(Roll.RollType.PASTRY, 30);
+        this.inventory.put(Roll.RollType.SAUSAGE, 30);
+        this.inventory.put(Roll.RollType.JELLY, 30);
     }
 
     private Random rand = new Random();
 
     //private CustomerFactory customerFactory = new CustomerFactory()
 
-    Dictionary<String, Integer> inventory = new Hashtable<>();
+    HashMap<Roll.RollType, Integer> inventory = new HashMap<>();
 
 
 
     RollFactory rollFactory = new RollFactory();
 
     private void refreshInventory(){
-        for(Enumeration i = inventory.keys(); i.hasMoreElements();) {
-            if(inventory.get(i) == 0){
-                inventory.put(i.toString(), 30);
-            }
+        Set set = inventory.entrySet();
+        Iterator iterator = set.iterator();
+        while(iterator.hasNext()) {
+            Map.Entry mentry = (Map.Entry)iterator.next();
+            Roll.RollType rollType = (Roll.RollType) mentry.getKey();
+            inventory.put(rollType, 30);
         }
     }
 
@@ -86,7 +88,7 @@ public class Store{
                 }
             }
         }
-        return
+        return null;
     }
 
 
