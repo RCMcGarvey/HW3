@@ -2,6 +2,9 @@ import Customers.Customer;
 import Customers.CustomerFactory;
 import Rolls.Roll;
 import Rolls.RollFactory;
+import java.util.Dictionary;
+import java.util.HashMap;
+import java.util.Hashtable;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
@@ -62,6 +65,32 @@ public class MyUnitTest {
         CustomerFactory customerFactory = new CustomerFactory();
         Customer myRoll = customerFactory.getCustomer(Customer.CustomerType.CATERING);
         assertEquals(myRoll.getCustomerType(), Customer.CustomerType.CATERING);
+    }
+
+    @Test
+    public void businessOrderFailTest(){
+        CustomerFactory customerFactory = new CustomerFactory();
+        Customer myCust = customerFactory.getCustomer(Customer.CustomerType.BUSINESS);
+        HashMap<Roll.RollType, Integer> inventory = new HashMap<>();
+        inventory.put(Roll.RollType.SPRING, 1);
+        inventory.put(Roll.RollType.EGG, 1);
+        inventory.put(Roll.RollType.PASTRY, 1);
+        inventory.put(Roll.RollType.SAUSAGE, 1);
+        inventory.put(Roll.RollType.JELLY, 1);
+        assertEquals(myCust.order(inventory), inventory);
+    }
+
+    @Test
+    public void businessOrderPassTest(){
+        CustomerFactory customerFactory = new CustomerFactory();
+        Customer myCust = customerFactory.getCustomer(Customer.CustomerType.BUSINESS);
+        HashMap<Roll.RollType, Integer> inventory = new HashMap<>();
+        inventory.put(Roll.RollType.SPRING, 30);
+        inventory.put(Roll.RollType.EGG, 30);
+        inventory.put(Roll.RollType.PASTRY, 30);
+        inventory.put(Roll.RollType.SAUSAGE, 30);
+        inventory.put(Roll.RollType.JELLY, 30);
+        assertNotEquals(myCust.order(inventory), inventory);
     }
 
 }
